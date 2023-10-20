@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teentrego - Búsqueda de Productos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Teentrego - Búsqueda de Productos</h1>
+    <input type="text" id="searchInput" placeholder="Buscar productos">
+    <select id="categoryFilter">
+        <option value="all">Todas las Categorías</option>
+        <option value="ropa">Ropa</option>
+        <option value="calzado">Calzado</option>
+        <option value="electrónica">Electrónica</option>
+    </select>
+    <button onclick="searchProducts()">Buscar</button>
+    <ul id="productList"></ul>
+    <div id="productDetails"></div>
+    <script src="script.js"></script>
+</body>
+</html>
